@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#16324f"><title>Pernem Booth Directory</title>
+<link rel="manifest" href="manifest.webmanifest">
+<style>
+:root{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#172536;background:#f3f6fa}
+*{box-sizing:border-box}body{margin:0}.top{background:#16324f;color:white;padding:24px 18px}
+.top h1{margin:0 0 6px;font-size:25px}.top p{margin:0;color:#d9e5f0}
+main{max-width:1000px;margin:auto;padding:18px}.tools{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+input,select{font:inherit;padding:12px;border:1px solid #cbd5e1;border-radius:10px;background:white}
+input{flex:1;min-width:210px}.stats{color:#526174;font-size:14px;margin:10px 0 14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.card{background:white;border:1px solid #dce4ed;border-radius:14px;padding:15px;box-shadow:0 2px 7px #12263a0b}
+.number{font-size:12px;color:#64748b;text-transform:uppercase;letter-spacing:.06em}
+.name{font-size:18px;font-weight:700;margin:5px 0}.area{font-size:13px;color:#526174}
+.status{display:inline-block;margin-top:12px;padding:5px 9px;border-radius:99px;background:#eef2f6;color:#425466;font-size:12px}
+.note{background:#fff;border:1px solid #dce4ed;border-radius:12px;padding:14px;margin:16px 0;color:#526174;font-size:13px}
+footer{text-align:center;color:#64748b;font-size:12px;padding:20px}
+@media(max-width:520px){.top h1{font-size:22px}main{padding:12px}}
+</style></head>
+<body>
+<header class="top"><h1>Pernem Booth Directory</h1><p>Offline booth and locality index · 51 booths</p></header>
+<main>
+<div class="tools">
+<input id="q" type="search" placeholder="Search booth number or locality…" aria-label="Search booth number or locality">
+<select id="area"><option value="">All areas</option><option>Korgao</option><option>Pernem</option></select>
+</div>
+<div class="stats" id="count" aria-live="polite"></div>
+<section class="grid" id="list"></section>
+<div class="note"><b>About this directory</b><br>This is a neutral index of booth numbers and localities. It does not contain individual voter names, contact details, political preferences, or campaign classifications. Use the relevant official electoral-roll PDF or Election Commission service for individual electoral information. Status labels, if added later, should be limited to document/data verification.</div>
+</main><footer>Local demo · Works offline after first load</footer>
+<script src="app.js"></script></body></html>

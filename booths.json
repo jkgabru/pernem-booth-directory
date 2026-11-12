@@ -1,0 +1,308 @@
+[
+  {
+    "booth": 1,
+    "locality": "Manshiwada",
+    "area": "Korgao",
+    "source_pdf": null
+  },
+  {
+    "booth": 2,
+    "locality": "Konadi",
+    "area": "Korgao",
+    "source_pdf": null
+  },
+  {
+    "booth": 3,
+    "locality": "Devsu",
+    "area": "Korgao",
+    "source_pdf": null
+  },
+  {
+    "booth": 4,
+    "locality": "Deulwada",
+    "area": "Korgao",
+    "source_pdf": null
+  },
+  {
+    "booth": 5,
+    "locality": "Deulwada",
+    "area": "Korgao",
+    "source_pdf": null
+  },
+  {
+    "booth": 6,
+    "locality": "Bhatwadi",
+    "area": "Korgao",
+    "source_pdf": null
+  },
+  {
+    "booth": 7,
+    "locality": "Bhaidwada",
+    "area": "Korgao",
+    "source_pdf": null
+  },
+  {
+    "booth": 8,
+    "locality": "Pethechawada",
+    "area": "Korgao",
+    "source_pdf": null
+  },
+  {
+    "booth": 9,
+    "locality": "Pethechawada",
+    "area": "Korgao",
+    "source_pdf": null
+  },
+  {
+    "booth": 10,
+    "locality": "Bagayatwada",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 11,
+    "locality": "Bhironde",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 12,
+    "locality": "Surbanwada",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 13,
+    "locality": "Kotkarwada",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 14,
+    "locality": "Mauswada",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 15,
+    "locality": "Nanerwada",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 16,
+    "locality": "Naibag",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 17,
+    "locality": "Poroscadem",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 18,
+    "locality": "Bhatpauni",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 19,
+    "locality": "Ugvem",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 20,
+    "locality": "Ugvem",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 21,
+    "locality": "Tambosem",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 22,
+    "locality": "Torxem",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 23,
+    "locality": "Torxem",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 24,
+    "locality": "Patradevi",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 25,
+    "locality": "Sakral",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 26,
+    "locality": "Mopa",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 27,
+    "locality": "Varkhand",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 28,
+    "locality": "Varkhand",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 29,
+    "locality": "Nagzar",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 30,
+    "locality": "Malpem",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 31,
+    "locality": "Malpem",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 32,
+    "locality": "Dhargal",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 33,
+    "locality": "Arabo",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 34,
+    "locality": "Dhargal",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 35,
+    "locality": "Dhargal",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 36,
+    "locality": "Dhargal",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 37,
+    "locality": "Dhargal",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 38,
+    "locality": "Dhargal",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 39,
+    "locality": "Dhargal",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 40,
+    "locality": "Ozrim",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 41,
+    "locality": "Ozari",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 42,
+    "locality": "Kasarvarnem",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 43,
+    "locality": "Kasarvarnem",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 44,
+    "locality": "Chandel",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 45,
+    "locality": "Hasapur",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 46,
+    "locality": "Alorna",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 47,
+    "locality": "Talarna",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 48,
+    "locality": "Talarna",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 49,
+    "locality": "Talarna",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 50,
+    "locality": "Ibrampur",
+    "area": "Pernem",
+    "source_pdf": null
+  },
+  {
+    "booth": 51,
+    "locality": "Ibrampur",
+    "area": "Pernem",
+    "source_pdf": null
+  }
+]

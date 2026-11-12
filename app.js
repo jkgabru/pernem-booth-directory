@@ -1,0 +1,5 @@
+let booths=[];const q=document.getElementById('q'),area=document.getElementById('area'),list=document.getElementById('list'),count=document.getElementById('count');
+function render(){const term=q.value.trim().toLowerCase(),a=area.value;const rows=booths.filter(x=>(!a||x.area===a)&&(!term||String(x.booth).includes(term)||x.locality.toLowerCase().includes(term)||x.area.toLowerCase().includes(term)));count.textContent=`Showing ${rows.length} of ${booths.length} booths`;list.innerHTML=rows.map(x=>`<article class="card"><div class="number">Booth ${x.booth}</div><div class="name">${x.locality}</div><div class="area">${x.area} area</div><span class="status">Locality index</span></article>`).join('')||'<p>No matching booth found.</p>';}
+fetch('booths.json').then(r=>r.json()).then(x=>{booths=x;render()}).catch(()=>{count.textContent='Directory data could not be loaded. Reopen the app after extracting the ZIP.'});
+q.addEventListener('input',render);area.addEventListener('change',render);
+if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
